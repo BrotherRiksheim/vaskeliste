@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaske Liste</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css" media="print">
+</head>
+<body>
+    <h1>Vaskeliste</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Uke nr</th>
+                <th>Dato</th>
+                <th>Ukes-ansvarlig</th>
+                <th>Assisterende</th>
+                <th>Etasje</th>
+                <th>Utført ?</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <script type="module" src="navn-list.js"></script>
+    <script type="module" src="utils.js"></script>
+    <script type="module">
+        import { navnListe } from "./navn-list.js"
+        import { washingList } from "./washingList.js"
+        import { getMondays, getISOWeekNumber, formatDateToNorwegian, getMondayForWeek, formatPeople } from "./utils.js"
+
+        const tbody = document.querySelector('tbody')
+
+        // const startDate = new Date('2024-08-05');
+        // const endDate = new Date('2025-02-28');
+        // const mondays = getMondays(startDate, endDate)
+
+        let year = 2024
+        let skipOffset = 0
+        
+        washingList.forEach((row, index) => {
+            if(
+                Object.keys(row.mainPerson).length === 0 && 
+                row.assistances.length === 0
+            ){}else {
+                let shouldSkip = false
+                if(row.mainPerson?.name?.includes('konferanse')) {
+                    skipOffset += 1
+                    shouldSkip = true
+                }
+
+                if(row.weekNr == 52) year = 2025
+                const monday = getMondayForWeek(year, row.weekNr)
+                const newRow = `
+                <tr>
+                    <th>${row.weekNr}</th>
+                    <th>${formatDateToNorwegian(monday)}</th>
+                    <th>${formatPeople(row.mainPerson)}</th>
+                    <th>${formatPeople(row.assistances)}</th>
+                    <th>${shouldSkip == false ? (index + skipOffset) % 2 == 0 ? '2.etg' : 'Kjeller' : ''}</th>
+                    <th>${row.done ? 'Takk' : ''}</th>
+                </tr>
+                    `
+                tbody.innerHTML += newRow        
+            }
+        });
+
+    </script>
+</body>
+</html>
