@@ -60,7 +60,7 @@
                     <th>${formatPeople(row.mainPerson)}</th>
                     <th>${formatPeople(row.assistances)}</th>
                     <th>${shouldSkip == false ? (index + skipOffset) % 2 == 0 ? '2.etg' : 'Kjeller' : ''}</th>
-                    <th>${row.done ? 'Takk' : ''}</th>
+                    <th>${row.done ? 'Takk!' : ''}</th>
                 </tr>
                     `
                 tbody.innerHTML += newRow        

@@ -5,7 +5,7 @@ export const washingList = [
         assistances: [
             { name: "Sande"},
         ],
-        done: false
+        done: true
     },
     {   
         weekNr: 33, 
