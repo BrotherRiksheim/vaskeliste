@@ -19,7 +19,7 @@ export const washingList = [
     },
     {   
         weekNr: 34, 
-        mainPerson: { name: "E. D. Horgmo"},
+        mainPerson: { name: "E. & D. Horgmo"},
         assistances: [
             { name: "Jensen"},
             { name: "Doris P."},
