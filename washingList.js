@@ -1,18 +1,19 @@
 export const washingList = [
     {   
         weekNr: 32, 
-        mainPerson: { name: "Burt"}, 
+        mainPerson: { name: "Misjonærene"}, 
         assistances: [
-            { name: "Sande"},
+            { name: "Astroza"},
+            { name: "Tupas"},
         ],
         done: true
     },
     {   
         weekNr: 33, 
-        mainPerson: { name: "Misjonærene"}, 
+        mainPerson: { name: "Burt"}, 
         assistances: [
-            { name: "Astroza"},
-            { name: "Tupas"},
+           
+            { name: "Sande"},
         ],
         done: false
     },
