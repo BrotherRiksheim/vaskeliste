@@ -56,7 +56,7 @@ tbody tr:hover {
     background-color: #e9ecef;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     th, td {
         padding: 0 10px;
     }
@@ -88,4 +88,4 @@ tbody tr:hover {
         text-align: left;
         font-weight: bold;
     }
-}
+} */
