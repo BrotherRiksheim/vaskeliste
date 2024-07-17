@@ -76,7 +76,7 @@ export const washingList = [
     },
     {   
         weekNr: 40, 
-        mainPerson:  { name: "General konferanse"}, 
+        mainPerson:  { name: "Generalkonferanse"}, 
         assistances: [
             
         ],
