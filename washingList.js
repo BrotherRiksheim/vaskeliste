@@ -76,9 +76,9 @@ export const washingList = [
     },
     {   
         weekNr: 40, 
-        mainPerson:  { name: "Generalkonferanse"}, 
+        mainPerson:  { name: "Generalkonferanse "}, 
         assistances: [
-            
+            (Lør & søndag 5-6.okt)
         ],
         done: false
     },
