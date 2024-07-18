@@ -13,7 +13,8 @@ export const washingList = [
         mainPerson: { name: "Burt"}, 
         assistances: [
            
-            { name: "Sande"},
+            { name: "Sande "}
+            { name: "B. Austenaa"}
         ],
         done: false
     },
