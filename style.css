@@ -43,18 +43,23 @@ th, td {
 th {
     position: sticky;
     top: 0;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #91beee;
+    color: #000000;
     z-index: 1;
+    font-weight: 100;
 }
 
-tbody tr:nth-child(even) {
+tr:nth-child(even) th {
+    background: #ffffff !important;
+}
+
+/* tbody tr:nth-child(even) {
     background-color: #f2f2f2;
-}
+} */
 
-tbody tr:hover {
+/* tbody tr:hover {
     background-color: #e9ecef;
-}
+} */
 
 /* @media (max-width: 600px) {
     th, td {
