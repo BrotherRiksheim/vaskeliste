@@ -122,7 +122,7 @@ export const washingList = [
     
     {   
         weekNr: 45, 
-        mainPerson: { name: "UK/UM v/S.M. Arias"},
+        mainPerson: { name: "UK/UM v/L.A. Andersen"},
         assistances: [
 
         ],
@@ -236,6 +236,8 @@ export const washingList = [
         mainPerson: { name: "Daimin"}, 
         assistances: [
             { name: "M. Gabrielsen"},
+            { name: "Khan"}
+            
         ],
         done: false
     },
