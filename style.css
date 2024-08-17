@@ -40,6 +40,10 @@ th, td {
     text-align: left;
 }
 
+thead tr:nth-child(1) th {
+    background: #f99bd8;
+}
+
 th {
     position: sticky;
     top: 0;
