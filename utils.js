@@ -57,14 +57,13 @@ export function getISOWeekNumber(date) {
 export function formatDateToNorwegian(date) {
     // Ensure the input is a valid Date object
     if (!(date instanceof Date)) {
-        throw new Error('Invalid date object provided.');
+      throw new Error('Invalid date object provided.');
     }
-
-    // Format the date to Norwegian standard
-    // const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
-    const options = { day: '2-digit', month: '2-digit'};
+  
+    // Format the date to Norwegian standard with month in abbreviated form
+    const options = { day: '2-digit', month: 'short' };
     return date.toLocaleDateString('nb-NO', options);
-}
+  }
 
 
 export function getMondayForWeek(year, weekNumber) {

@@ -40,9 +40,6 @@ th, td {
     text-align: left;
 }
 
-thead tr:nth-child(1) th {
-    background: #f99bd8;
-}
 
 th {
     position: sticky;
@@ -55,6 +52,20 @@ th {
 
 tr:nth-child(even) th {
     background: #ffffff !important;
+}
+thead tr:nth-child(1) th {
+    background: #f99bd8 !important;
+    font-size: 13px;
+    font-weight: 600;
+}
+tr th:nth-child(2) {
+    background: #93C47D !important;
+}
+tr th:nth-child(3) {
+    font-weight: 600;
+}
+tr th:nth-child(4) {
+    background: #FFF2CC !important;
 }
 
 /* tbody tr:nth-child(even) {
