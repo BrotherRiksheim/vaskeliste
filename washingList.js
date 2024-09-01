@@ -9,12 +9,11 @@ export const washingList = [
         done: true
     },
     {   
-        weekNr: 33, 
-        mainPerson: { name: "Burt"}, 
+                weekNr: 33, 
+        mainPerson: { name: "Daimin"}, 
         assistances: [
-           
-            { name: "Sande"},
-        ],
+            { name: "M. Gabrielsen"},
+            { name: "Khan"}
         done: false
     },
     {   
@@ -49,7 +48,7 @@ export const washingList = [
         weekNr: 37, 
         mainPerson: { name: "S. Isaksen"},
         assistances: [
-            { name: "Tapia"},
+            { name: "R . Riksheim"},
             { name: "Jørgensen"},
         ],
         done: false
@@ -226,7 +225,8 @@ export const washingList = [
         mainPerson: { name: "Eng"},
         assistances: [
             { name: "Judson"},
-            { name: "R. Riksheim"},
+            { name: "Sjøvold"},
+            { name: "Sande"},
             
         ],
         done: false
