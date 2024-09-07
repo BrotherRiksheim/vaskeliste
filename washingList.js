@@ -115,7 +115,7 @@ export const washingList = [
         weekNr: 44, 
         mainPerson: { name: "Stavskonferanse"},
         assistances: [
-
+            {name: "(Lør & søndag 1-2.nov)"}
         ],
         done: false
     },
