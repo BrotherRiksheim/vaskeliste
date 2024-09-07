@@ -12,7 +12,7 @@ export const washingList = [
                 weekNr: 33, 
         mainPerson: { name: ""}, 
         assistances: [
-            { name: " "},
+            { name: "Riksheim "},
             { name: ""}
             ],
          done: true
