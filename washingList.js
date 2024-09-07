@@ -14,7 +14,8 @@ export const washingList = [
         assistances: [
             { name: "M. Gabrielsen"},
             { name: "Khan"}
-        done: false
+            ],
+         done: false
     },
     {   
         weekNr: 34, 
