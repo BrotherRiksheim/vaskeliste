@@ -9,13 +9,13 @@ export const washingList = [
         done: true
     },
     {   
-        weekNr: 33, 
-        mainPerson: { name: "Burt"}, 
+                weekNr: 33, 
+        mainPerson: { name: ""}, 
         assistances: [
-           
-            { name: "Sande"},
-        ],
-        done: false
+            { name: "Riksheim "},
+            { name: ""}
+            ],
+         done: true
     },
     {   
         weekNr: 34, 
@@ -24,7 +24,7 @@ export const washingList = [
             { name: "Jensen"},
             { name: "Doris P."},
         ],
-        done: false
+        done: true
     },
     {   
         weekNr: 35, 
@@ -34,7 +34,7 @@ export const washingList = [
             { name: "Prakash"},
             { name: "Muren familien"},
         ],
-        done: false
+        done: true
     },
     {   
         weekNr: 36, 
@@ -43,7 +43,7 @@ export const washingList = [
             { name: "Austenaa familien"},
             { name: "Rikheim Kofstad"},
         ],
-        done: false
+        done: true
     },
     {   
         weekNr: 37, 
@@ -115,7 +115,7 @@ export const washingList = [
         weekNr: 44, 
         mainPerson: { name: "Stavskonferanse"},
         assistances: [
-
+            {name: "(Lør & søndag 1-2.nov)"}
         ],
         done: false
     },
@@ -226,7 +226,8 @@ export const washingList = [
         mainPerson: { name: "Eng"},
         assistances: [
             { name: "Judson"},
-            { name: "R. Riksheim"},
+            { name: "Sjøvold"},
+            { name: "Sande"},
             
         ],
         done: false
