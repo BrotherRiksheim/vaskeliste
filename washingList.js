@@ -1,6 +1,6 @@
 export const washingList = [
     {   
-        weekNr: 32, 
+        weekNr: 6, 
         mainPerson: { name: "Misjonærene"}, 
         assistances: [
             { name: "Astroza"},
@@ -9,7 +9,7 @@ export const washingList = [
         done: true
     },
     {   
-                weekNr: 33, 
+                weekNr: 7, 
         mainPerson: { name: ""}, 
         assistances: [
             { name: "Riksheim "},
@@ -18,7 +18,7 @@ export const washingList = [
          done: true
     },
     {   
-        weekNr: 34, 
+        weekNr: 8, 
         mainPerson: { name: "E. & D. Horgmo"},
         assistances: [
             { name: "Jensen"},
@@ -27,7 +27,7 @@ export const washingList = [
         done: true
     },
     {   
-        weekNr: 35, 
+        weekNr: 9, 
         mainPerson: { name: "T. Carlsen"},
         assistances: [
             { name: "Barsisa"},
@@ -37,7 +37,7 @@ export const washingList = [
         done: true
     },
     {   
-        weekNr: 36, 
+        weekNr: 10, 
         mainPerson: { name: "Austenaa"},
         assistances: [
             { name: "Austenaa familien"},
@@ -46,7 +46,7 @@ export const washingList = [
         done: true
     },
     {   
-        weekNr: 37, 
+        weekNr: 11, 
         mainPerson: { name: "S. Isaksen"},
         assistances: [
             { name: "Tapia"},
@@ -55,7 +55,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 38, 
+        weekNr: 12, 
         mainPerson: { name: "Skovly"},
         assistances: [
             { name: "J. & E-K Edvardsen"},
@@ -64,7 +64,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 39, 
+        weekNr: 13, 
         mainPerson: [
             { name: "J. Andersen"},
             { name: "M. Andersen"},
@@ -75,7 +75,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 40, 
+        weekNr: 14, 
         mainPerson:  { name: "Generalkonferanse "}, 
         assistances: [
             {name: "(Lør & søndag 5-6.okt)"}
@@ -83,7 +83,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 41, 
+        weekNr: 15, 
         mainPerson:  { name: "Porsbøll"}, 
         assistances: [
             { name: "da Costa"},
@@ -91,7 +91,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 42, 
+        weekNr: 16, 
         mainPerson: { name: "J. Brekke"}, 
         assistances: [
             { name: "Røsaker"},
@@ -101,7 +101,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 43, 
+        weekNr: 17, 
         mainPerson: { name: "Svanevik"},
         assistances: [
             { name: "Dalere"},
@@ -112,7 +112,7 @@ export const washingList = [
     },
     
     {   
-        weekNr: 44, 
+        weekNr: 18, 
         mainPerson: { name: "Stavskonferanse"},
         assistances: [
             {name: "(Lør & søndag 1-2.nov)"}
@@ -121,7 +121,7 @@ export const washingList = [
     },
     
     {   
-        weekNr: 45, 
+        weekNr: 19, 
         mainPerson: { name: "UK/UM v/L.A. Andersen"},
         assistances: [
 
@@ -129,7 +129,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 46, 
+        weekNr: 20, 
         mainPerson: { name: "Amundsen"},
         assistances: [
             { name: "Clement"},
@@ -137,7 +137,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 47, 
+        weekNr: 21, 
         mainPerson: [
             { name: "R. Andersen"},
             { name: ". Andersen"},
@@ -149,7 +149,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 48, 
+        weekNr: 22, 
         mainPerson: { name: "Aabo"},
         assistances: [
             { name: "Arias"},
@@ -158,7 +158,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 49, 
+        weekNr: 23, 
         mainPerson: { name: "Svendsen"}, 
         assistances: [
             { name: "I. Andersen"},
@@ -167,7 +167,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 50, 
+        weekNr: 24, 
         mainPerson: { name: "Capizzi"},
         assistances: [
             { name: "Delalić"},
@@ -176,7 +176,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 51, 
+        weekNr: 25, 
         mainPerson: { name: "Herheim"},
         assistances: [
             { name: "Agreda"},
@@ -185,7 +185,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 52, 
+        weekNr: 26, 
         mainPerson: { name: "Kerr"},
         assistances: [
             { name: "Rosenkilde"},
@@ -194,7 +194,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 1, 
+        weekNr: 27, 
         mainPerson: [
             { name: "M. Herland"},
             { name: "T-A. Herland"},
@@ -206,7 +206,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 2, 
+        weekNr: 28, 
         mainPerson: { name: "Heistø Carlsen"}, 
         assistances: [
             { name: "Packer family"},
@@ -214,7 +214,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 3, 
+        weekNr: 29, 
         mainPerson: { name: "Edvardsen"},
         assistances: [
             { name: "Weli familien (Weli family)"},
@@ -222,7 +222,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 4, 
+        weekNr: 30, 
         mainPerson: { name: "Eng"},
         assistances: [
             { name: "Judson"},
@@ -233,7 +233,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 5, 
+        weekNr: 31, 
         mainPerson: { name: "Daimin"}, 
         assistances: [
             { name: "M. Gabrielsen"},
@@ -243,7 +243,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 6, 
+        weekNr: 32, 
         mainPerson: { name: "Noen/somebody"},
         assistances: [
             { name: "Er det noen flere som kan stille?"},
@@ -251,7 +251,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 7, 
+        weekNr: 33, 
         mainPerson: {}, 
         assistances: [
 
@@ -259,7 +259,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 8, 
+        weekNr: 34, 
         mainPerson: {}, 
         assistances: [
 
@@ -267,7 +267,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 9, 
+        weekNr: 35, 
         mainPerson: {}, 
         assistances: [
 
@@ -275,7 +275,7 @@ export const washingList = [
         done: false
     },
     {   
-        weekNr: 10, 
+        weekNr: 36, 
         mainPerson: {}, 
         assistances: [
 
