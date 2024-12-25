@@ -10,10 +10,10 @@ export const washingList = [
     },
     {   
         weekNr: 7, 
-        mainPerson: { name: ""}, 
+        mainPerson: { name: "L.A. Andersen"}, 
         assistances: [
-            { name: "Riksheim "},
-            { name: ""}
+            { name: " UK"},
+            { name: "UM"}
             ],
          done: true
     },
@@ -122,7 +122,7 @@ export const washingList = [
     
     {   
         weekNr: 19, 
-        mainPerson: { name: "UK/UM v/L.A. Andersen"},
+        mainPerson: { name: ""},
         assistances: [
 
         ],
